@@ -33,7 +33,7 @@ int main() {
     return 0;
 }
 
-void derived :: fun(){
+void derived::fun(){
     cout << "DERIVED FUN DERIVED X= " << x << endl;
     cout << "IN DERIVED FUN BASE X= " << base::x << endl;
 }
