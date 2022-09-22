@@ -24,9 +24,16 @@ int main() {
     for (auto i : v)
     cout << i << endl;
 
-    cout<< endl <<"sort" << endl;
+    cout<< endl <<"Ascending sort" << endl;
 
     sort(v.begin(),v.end());
+
+    for (auto i:v)
+        cout<< i << endl;
+
+    cout<< endl <<"Descending sort" << endl;
+
+    sort(v.begin(),v.end(), greater <string> () );
 
     for (auto i:v)
         cout<< i << endl;
